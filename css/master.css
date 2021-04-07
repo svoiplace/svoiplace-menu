@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Euclid SemiBold';
+    src: url('../fonts/EuclidCircularA-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Regular';
+    src: url('../fonts/EuclidCircularA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Italic';
+    src: url('../fonts/EuclidCircularA-SemiBoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+  font-family: Euclid Regular;
+  font-size: 16px;
+}
+
+body {
+ padding: 0;
+ margin: 0;
+}
