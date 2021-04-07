@@ -1,3 +1,7 @@
+.block {
+  margin-bottom: 8rem;
+}
+
 .head {
   background-color: #242424;
   color: #FFF;
@@ -6,18 +10,35 @@
   text-transform: uppercase;
   letter-spacing: 0.15em;
   text-align: center;
+  padding: 0.1em 0;
+}
+
+.no-underHead {
   margin-bottom: 1.5em;
-  padding: .1em 0;
+}
+
+.under-head {
+  padding-top: 1.7em;
+  margin-bottom: 3em
+}
+
+.under-head span {
+  font-size: 2rem;
+  font-family: Euclid SemiBold;
 }
 
 .position {
   margin-bottom: 4em;
 }
 
-.position-grid { 
+.position-grid {
   display: flex;
   justify-content: space-between;
-  padding: 0 2em 0 2em;
+
+}
+
+.container {
+    padding: 0 2em 0 2em;
 }
 
 .position-name, .position-price {
@@ -50,10 +71,33 @@
 
 .position-name span {
     font-family: Euclid SemiBold;
-
-
 }
 
 .position-price {
   font-family: Euclid Italic;
+}
+
+.dop {
+
+}
+
+.dop .dop-head {
+  display: inline;
+}
+
+.dop-child {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+}
+
+.dop-child .child {
+  width: 33%;
+  border: solid red 1px;
+}
+
+.dop .child span {
+
 }
