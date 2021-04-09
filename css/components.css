@@ -133,3 +133,18 @@
   padding: 1em 0 ;
   border-bottom: 1px solid #FFF;
 }
+
+.head span sup {
+  font-size: 1.8rem;
+}
+
+.head .ss {
+  font-size: 2.5rem;
+  margin-left: 1.5em;
+  font-family: Euclid Italic;
+}
+
+
+.position-desc .no-price {
+ font-size: 16px;
+}
