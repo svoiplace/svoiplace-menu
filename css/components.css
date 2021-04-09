@@ -17,7 +17,7 @@
 }
 
 .no-underHead {
-  margin-bottom: 1.5em;
+  margin-bottom: 2.5em;
 }
 
 .under-head {
@@ -110,10 +110,26 @@
 
 .dop-child .child {
   width: 33%;
-  margin-bottom: .9em;
+  margin-bottom: 1.2em;
 
 }
 
 .dop .child span {
 
+}
+
+
+
+
+.home-btn {
+  background-color: #242424;
+  display: flex;
+  text-align: center;
+  font-size: 5rem;
+  justify-content: center;
+  font-family: Euclid SemiBold;
+  text-decoration: none;
+  color: #FFF;
+  padding: 1em 0 ;
+  border-bottom: 1px solid #FFF;
 }
