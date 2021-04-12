@@ -3,9 +3,10 @@
 }
 
 .head {
-  background-color: #242424;
+
   text-align: center;
   padding: 1em 0;
+  background-image: url(../img/header_bg.jpg);
 }
 
 .head span {
@@ -13,7 +14,6 @@
   font-family: Euclid SemiBold;
   font-size: 3.2rem;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
 }
 
 .no-underHead {
