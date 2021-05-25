@@ -134,7 +134,8 @@
 .home-btn {
   background-color: #242424;
   display: flex;
-  font-size: 4.7rem;
+  font-size: 3.8rem;
+  text-transform: uppercase;
   justify-content: center;
     align-items: center;
   font-family: Euclid SemiBold;
