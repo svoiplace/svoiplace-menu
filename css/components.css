@@ -32,7 +32,51 @@
 
 .position {
   margin-bottom: 4em;
+
 }
+
+.position-pic {
+  width: 17%;
+  background: url(../img/coct.png) no-repeat;
+  background-size: 1200px;
+
+  background-position: 0 center;
+
+}
+
+.position-pic.highball {
+  background-position: 5px center;
+}
+
+.position-pic.martini {
+  background-position: -695px center;
+  background-size: 900px;
+}
+
+.position-pic.margarita {
+  background-position: -535px center;
+  background-size: 900px;
+}
+
+.position-pic.vine {
+  background-position: -481px center;
+    background-size: 1100px;
+}
+
+.position-pic.harrikein {
+  background-position: -355px center;
+}
+
+.position-pic.roks {
+  background-position: -148px center;
+      background-size: 1050px;
+}
+
+.position-pic.flute {
+  background-position: -1026px center;
+  background-size: 1100px;
+}
+
 
 .position-grid {
   display: flex;
@@ -50,6 +94,7 @@
 
 .position-info {
   width: 68%;
+
 }
 
 .position-price {
