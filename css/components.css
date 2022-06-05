@@ -124,6 +124,11 @@
   color: #5d5d5d;
 }
 
+.position-desc,.no-price span {
+  font-size: 19px;
+  color: #5d5d5d;
+}
+
 .position-name {
   margin: 0 0 0.2em 0;
 }
