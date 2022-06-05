@@ -3,16 +3,15 @@
 }
 
 .head {
-
   text-align: center;
-  padding: 1em 0;
+  padding: 1.5em 0;
   background-image: url(../img/header_bg.jpg);
 }
 
 .head span {
   color: #FFF;
   font-family: Euclid SemiBold;
-  font-size: 3.2rem;
+  font-size: 3.7rem;
   text-transform: uppercase;
 }
 
@@ -39,9 +38,7 @@
   width: 17%;
   background: url(../img/coct.png) no-repeat;
   background-size: 1200px;
-
   background-position: 0 center;
-
 }
 
 .position-pic.highball {
@@ -60,7 +57,7 @@
 
 .position-pic.vine {
   background-position: -481px center;
-    background-size: 1100px;
+  background-size: 1100px;
 }
 
 .position-pic.harrikein {
@@ -69,7 +66,7 @@
 
 .position-pic.roks {
   background-position: -148px center;
-      background-size: 1050px;
+  background-size: 1050px;
 }
 
 .position-pic.flute {
@@ -81,7 +78,6 @@
 .position-grid {
   display: flex;
   justify-content: space-between;
-
 }
 
 .container {
@@ -94,7 +90,6 @@
 
 .position-info {
   width: 68%;
-
 }
 
 .position-price {
@@ -116,6 +111,11 @@
 
 .sup-info {
   color: #e5b700;
+  font-size: 20px;
+}
+
+.sup-info_v2 {
+  color: #9740b4;
   font-size: 20px;
 }
 
@@ -192,11 +192,10 @@
   font-size: 3.8rem;
   text-transform: uppercase;
   justify-content: center;
-    align-items: center;
+  align-items: center;
   font-family: Euclid SemiBold;
   text-decoration: none;
   color: #FFF;
-
   border-bottom: 1px solid #FFF;
   height: 100%;
 }
@@ -209,6 +208,15 @@
   font-size: 2.5rem;
   margin-left: 1.5em;
   font-family: Euclid Italic;
+}
+
+.head .ss_v2 {
+  font-size: 2.5rem;
+  margin-left: 1.5em;
+  font-family: Euclid SemiBold;
+  color: #FFF;
+  display: block;
+  margin-top: 0.3em;
 }
 
 
