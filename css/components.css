@@ -35,7 +35,7 @@
 }
 
 .position-pic {
-  width: 17%;
+  width: 8.2em;
   background: url(../img/coct.png) no-repeat;
   background-size: 1200px;
   background-position: 0 center;
@@ -226,5 +226,31 @@
 
 
 .position-desc .no-price {
+
+}
+
+
+/**Технологичка**/
+
+.position-pic.pic-tec {
+  border: solid red 1px;
+  width: 8.2em;
+  background: url(../img/coct.png) no-repeat;
+  background-size: 1200px;
+  background-position: 0 center;
+}
+
+.position-grid.tec-grid {
+  justify-content: flex-start;
+  border: solid green 1px;
+}
+
+.position-info.tec-pos-info {
+  width: 100%;
+}
+
+.ingredients {
+  border: solid black 1px;
+  font-size: 3rem;
 
 }
