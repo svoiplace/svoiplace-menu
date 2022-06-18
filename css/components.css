@@ -232,17 +232,36 @@
 
 /**Технологичка**/
 
+.head-ing span{
+  font-size: 2rem;
+}
+
+.split {
+  display: flex;
+}
+
+.split .left {
+  padding-right: 3em;
+}
+
+.split .left {
+  width: 40%;
+}
+
+.split .right {
+  width: 60%;
+}
+
 .position-pic.pic-tec {
-  border: solid red 1px;
-  width: 8.2em;
+  width: 6em;
   background: url(../img/coct.png) no-repeat;
-  background-size: 1200px;
+  background-size: 900px;
   background-position: 0 center;
+  display: none;
 }
 
 .position-grid.tec-grid {
   justify-content: flex-start;
-  border: solid green 1px;
 }
 
 .position-info.tec-pos-info {
@@ -250,7 +269,105 @@
 }
 
 .ingredients {
-  border: solid black 1px;
-  font-size: 3rem;
+  font-size: 1.2rem;
+}
 
+.ingredients .ing-sep {
+  border-bottom: dashed #CCC 1px;
+  padding-bottom: 0.5em;
+  width: 80%
+}
+
+.ingredients .ing-sep-2 {
+  width: 20%;
+  color: #9740b4;
+}
+
+.ingredients .ing-head {
+  margin-bottom: 0.7em;
+  display: block;
+  font-size: 1.4rem;
+  font-family: Euclid SemiBold;
+  background-image: url(../img/header_bg.jpg);
+  color: #FFF;
+  padding: 0.5em 0.5em;
+}
+
+.onepx {
+  min-width: 1px;
+}
+
+.ingredients ol,li {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
+.ingredients ol li {
+  padding-bottom: 0.8em;
+}
+
+.ingredients ol li::marker {
+  font-family: Euclid SemiBold;
+  font-size: 1.4rem;
+}
+
+/**Спрайты инвентаря**/
+
+.tec-using_row {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.tec-using_header {
+  margin-bottom: 1em;
+}
+
+.tec-using_header span {
+  font-size: 1.4rem;
+  font-family: Euclid SemiBold;
+}
+
+.tec-using {
+  width: 100px;
+  height: 100px;
+  background: url(../img/tec-sprite.jpg) no-repeat;
+  border: 1px solid #CCC;
+  border-radius: 6px;
+  margin-right: 0.5em;
+}
+
+.tec-using.spoon {
+  background-position: -110px -400px;
+}
+
+
+@media screen and (max-width: 760px) {
+  .split {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .split .left {
+    width: auto;
+  }
+
+  .split .right {
+    width: auto;
+  }
+
+  .position-pic.pic-tec {
+    display: none;
+  }
+
+  .split .left {
+    padding: 0;
+  }
+
+  .tec-using {
+    width: 96px;
+    height: 96px;
+    margin-right: 0.2em;
+    margin-bottom: 0.2em;
+  }
 }
