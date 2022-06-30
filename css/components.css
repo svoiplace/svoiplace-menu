@@ -191,6 +191,13 @@
   height: 100vh;
 }
 
+.home-scroll {
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .home-btn {
   background-color: #242424;
   display: flex;
@@ -203,6 +210,13 @@
   color: #FFF;
   border-bottom: 1px solid #FFF;
   height: 100%;
+}
+
+.home-sroll_btn {
+width: calc( ( 99% ) / 4 );
+height: 160px;
+font-size: 1.2rem;
+border: solid white 1px;
 }
 
 .head span sup {
@@ -232,8 +246,35 @@
 
 /**Технологичка**/
 
-.head-ing span{
+.wrap-flex {
+  display: flex;
+}
+
+.head-ing{
+  padding: 0.8em 0;
+}
+
+.hhh {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.head-ing a {
+  width: 20%;
+  line-height: 3rem;
+  text-decoration: none;
+  color: #FFF;
   font-size: 2rem;
+  margin-right: 2em;
+  margin-left: 0.5em;
+  border: solid #CCC 1px;
+  border-radius: 20px;
+}
+
+.head-ing span{
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 
 .split {
@@ -341,8 +382,31 @@
   background-position: -110px -400px;
 }
 
+.tec-using.hiboll {
+  background-position: 0 -100px;
+}
+
+.tec-using.shaker {
+  background-position: -110px 0;
+}
+
+.tec-using.strener {
+  background-position: -110px -100px;
+}
+
+.tec-using.harrikein {
+  background-position: 0 -200px;
+}
+
+
+
+
+
 
 @media screen and (max-width: 760px) {
+
+
+
   .split {
     display: flex;
     flex-direction: column;
@@ -369,5 +433,14 @@
     height: 96px;
     margin-right: 0.2em;
     margin-bottom: 0.2em;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  .home-sroll_btn {
+    flex-grow: 1;
+    flex-basis: 200px;
+    height: 200px;
+    border: solid white 1px;
   }
 }
