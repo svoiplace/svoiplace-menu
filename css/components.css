@@ -8,6 +8,10 @@
   background-image: url(../img/header_bg.jpg);
 }
 
+.display-none {
+  display: none;
+}
+
 .head span {
   color: #FFF;
   font-family: Euclid SemiBold;
